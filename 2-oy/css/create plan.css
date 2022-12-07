@@ -1,0 +1,474 @@
+* {
+    box-sizing: border-box;
+    
+}
+
+body {
+    width: 1440px;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+}
+
+.flexbox-header {
+    display: flex;
+    align-items: center;
+}
+
+.logo-img {
+    margin: 23px 0 0 80px;
+}
+
+.navbar {
+    margin-top: 20px;
+}
+
+.navbar ul {
+    display: flex;
+    gap: 0 32px;
+}
+
+.navbar ul li {
+    list-style-type: none;
+}
+
+.navbar ul li a {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.923077px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000;
+    opacity: 0.5;
+}
+
+.navbar ul li a:hover {
+    cursor: pointer;
+    opacity: 1;
+}
+
+.navbar ul:nth-child(1) {
+    margin-left: 710px;
+}
+
+.box-great-coffee-section {
+    width: 1280px;
+    height: 450px;
+    background-image: url(../photos/create\ plan\ img.png);
+    background-repeat: no-repeat;
+    margin-left: 81px;
+    padding-left: 86px;
+}
+
+.h1-great-coffee {
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: #FEFCF7;
+    padding-top: 117px;
+}
+
+.text-great-coffee {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FEFCF7;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+}
+
+.section-how-it-works {
+    width: 1280px;
+    height: 653px;
+    background-color: #333D4B;
+    margin-left: 80px;
+    margin-top: 170px;
+    border-radius: 8px;
+}
+
+.oval-img {
+    position: absolute;
+    left: 190px ;
+    right: 97.03%;
+    top: 832px;
+    bottom: 74.69%;
+    z-index: 2;
+}
+
+.oval-img1 {
+    position: absolute;
+    left: 575px;
+    right: 60.67%;
+    top: 832px;
+    bottom: 74.69%;
+    z-index: 2;
+}
+
+.oval-img2 {
+    position: absolute;
+    left: 945px;
+    right: 24.31%;
+    top: 832px;
+    bottom: 74.69%;
+}
+
+.line-img1 {
+    margin-left: 125px;
+    margin-top: 95px;
+}
+
+.flexbox-how-it-works {
+    display: flex;
+    gap: 0 95px;
+}
+
+.steps-how-works-section1 {
+    padding-left: 85px;
+}
+
+.h1-steps {
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+    color: #FDD6BA;
+    padding-top: 82px;
+}
+
+.h3-steps {
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+    color: #fff;
+}
+
+.p-steps {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #fff;
+}
+
+.perferences {
+    margin-top: 159px;
+    margin-left: 165px;
+}
+
+.flexbox-perferences {
+    display: flex;
+    gap: 10px 169px;
+}
+
+.box-perferences {
+    width: 255px;
+    height: 356px;
+}
+
+.textbox-perferences-section {
+    display: flex;
+    gap: 0 28px;
+}
+
+.number-perferences-section {
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #0E8784;
+    padding: 10px 0;
+}
+
+.number-perferences-section1 {
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #333D4B;
+    padding: 10px 0;
+    opacity: 0.4;
+}
+
+.number-perferences-section2 {
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #0E8784;
+    padding: 10px 0;
+    color: #83888F;
+}
+
+.box-how-to-drink-coffee {
+    width: 650px;
+    height: 354px;
+
+}
+
+.flexbox1 {
+    display: flex;
+    flex-direction: column;
+    gap: 88px 0;
+}
+
+.flexbox-something {
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-perferences-section {
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #333D4B;
+    padding: 10px 0;
+    margin-bottom: 1px solid  #83888F;
+    opacity: 0.5;
+    transition: 0.5s;
+}
+
+.text-perferences-section:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.text-perferences-section1 {
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #333D4B;
+    padding: 10px 0;
+    margin-bottom: 1px solid  #83888F;
+}
+
+.line-img {
+    position: absolute;
+    right: 1130px;
+}
+
+.h2-how-to-drink-coffeee {
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    opacity: 0.5;
+}
+
+.strelka-img {
+    margin-top: 50px;
+}
+
+.flexbox-how-drink-coffee {
+    display: flex;
+    gap: 0 40px;
+}
+
+.box-inner-flexbox {
+    width: 228px;
+    height: 250px;
+    background: #F4F1EB;
+    border-radius: 8px;
+    transition: 0.5s;
+}
+
+.box-inner-flexbox:hover {
+    cursor: pointer;
+    background-color: #FDD6BA;
+}
+
+.box-inner-flexbox1 {
+    width: 258px;
+    height: 250px;
+    background: #0E8784;
+    border-radius: 8px;
+}
+
+.h4-how-to-drink-coffee {
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #333D4B;
+    padding-top: 32px;
+    padding-left: 28px;
+}
+
+.p-how-to-drink-coffee {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #333D4B;
+    padding-left: 28px;
+}
+
+.h4-how-to-drink-coffee1 {
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #fff;
+    padding-top: 32px;
+    padding-left: 28px;
+}
+
+.p-how-to-drink-coffee1 {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #fff;
+    padding-left: 28px;
+}
+
+.order-summary {
+    width: 873px;
+    height: 258px;
+    background-color: #272E36;
+    border-radius: 8px;
+}
+
+.h4-order-summary {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    opacity: 0.5;
+    padding-left: 64px;
+    padding-top: 31px;
+}
+
+.p-order-summary {
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 40px;
+    color: #FFFFFF;
+    padding-left: 64px;
+}
+
+.p-color {
+    color: #0E8784;
+}
+
+.create-my-plan-button {
+    display: inline-block;
+    width: 217px;
+    height: 56px;
+    background-color: #0E8784;
+    border-radius: 6px;
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    text-decoration: none;
+    color: #FEFCF7;
+    padding-top: 15px;
+    margin-left: 650px;
+    transition: 0.5s;
+}
+
+.create-my-plan-button:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+footer {
+    width: 1380px;
+    height: 120px;
+    background-color: #2C343E;
+    margin-top: 200px;
+    margin-left: 80px;
+}
+
+.section-footer {
+    padding-top: 47px;
+}
+
+.img-footer {
+    width: 236px;
+    height: 26px;
+    padding-left: 85px;
+}
+
+.flexbox-footer {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-footer ul {
+    display: flex;
+    align-items: center;
+    gap: 47px 33px;
+}
+
+.navbar-footer ul:nth-child(1) {
+    padding-left: 103px;
+}
+
+.navbar-footer ul li {
+    list-style-type: none;
+}
+
+.navbar-footer ul li a {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.923077px;
+    text-transform: uppercase;
+    color: #83888F;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.navbar-footer ul li a:hover {
+    cursor: pointer;
+    color: #fff;
+}
+
+.spanbox-footer {
+    margin-left: 469px;
+}
+
+.spanbox-footer span {
+    padding-right: 24px;
+}
+
+.spanbox-footer span a {
+    text-decoration: none;
+}
+
